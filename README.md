@@ -1,33 +1,26 @@
-# Samehadaku-Rest-Api
+# OFFICIAL SAMEHADAKU API
 
 SRA is a rest-api which is scraping to the [samehadaku](https://samehadaku.site) website and made up using Express.
 
-## Demo
-[Click to show preview](https://samehadaku-rest-api.herokuapp.com/)
+[PREVIEW ON HEROKU](https://samehadaku-rest-api.herokuapp.com/)
 
-## Installation
+USE [NPM](https://npmjs.com/) TO INSTALL SRA'S PKG.
 
-Use the package manager [npm](https://npmjs.com/) to install SRA's package.
-
-* Clone the Repo
-* Install all packages using command
+* CLONE REPO
+* INSTALL ALL PKG WITH COMMAND
 ```bash
 npm install
 ```
-
-## Usage
-
-Start server with command:
+START SERVER COMMAND:
 ```bash
 npm start
 ```
-or
 ```bash
 npm run nodemon
 ```
-Then open [localhost:3000](http://localhost:3000/)
+RUN [LOCALHOST:3000](http://localhost:3000/)
 
-## Endpoint
+## ENDPOINT
 
 | Url        | Params           | Type | Description |
 | ------------- |:-------------:| :-----:|  :-----|
@@ -47,10 +40,9 @@ Then open [localhost:3000](http://localhost:3000/)
 | /daftar-genre | -   |  String | genre list |
 | /genre/{id} | id   |  String | show anime by genre |
 
+## SAMPLE RESPONSE
 
-## Sample response
-
-Api Endpoint : https://samehadaku-rest-api.herokuapp.com/
+API ENDPOINT : https://samehadaku-rest-api.herokuapp.com/
 ```json
 {
     title: "Re:Zero kara Hajimeru Isekai Seikatsu Season 2",
@@ -68,10 +60,4 @@ Api Endpoint : https://samehadaku-rest-api.herokuapp.com/
     ]
 },
 ```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
 ---
