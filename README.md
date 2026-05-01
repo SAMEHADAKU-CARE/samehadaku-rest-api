@@ -1,7 +1,6 @@
 # OFFICIAL SAMEHADAKU API
 
-SRA is a rest-api which is scraping to the [samehadaku](https://samehadaku.site) website and made up using Express.
-
+SRA IS A REST API WHICH IS SCRAPING TO [SAMEHADAKU](https://samehadaku.site) WEBSITE & MADE UP WITH EXPRESS.
 [PREVIEW ON HEROKU](https://samehadaku-rest-api.herokuapp.com/)
 
 USE [NPM](https://npmjs.com/) TO INSTALL SRA'S PKG.
