@@ -17,7 +17,7 @@ npm start
 ```bash
 npm run nodemon
 ```
-RUN [LOCALHOST:3000](http://localhost:3000/)
+RUN IN [LOCALHOST:3000](http://localhost:3000/)
 
 ## ENDPOINT
 
